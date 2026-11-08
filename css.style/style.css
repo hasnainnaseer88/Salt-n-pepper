@@ -1,0 +1,138 @@
+:root{
+    --bg-color: #000000;
+    --text-color: #ffffff;
+    --order-btn-clr:#ed1c24;
+    --direction-btn-clr:#28a745;
+    --para-clr:#b7b7b7;
+}
+
+*{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    box-sizing: border-box;
+    padding: none;
+    margin: none;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    gap: 14%;
+
+}
+.logo{
+    width: 165px;
+}
+/* nav started */
+.nav-bar{
+    height: 1%;
+    display: flex;
+    font-size: 16px;
+    font-family: inter ;
+    align-items: end;
+    padding: 10px 10%; 
+    gap: 10px;
+    
+}
+.nav-bar a{
+    margin-bottom: 10px;
+    margin: 10px;
+}
+.get-a-franchise-button{
+    padding: 15px 16.5px;
+    border: 1px solid var(--text-color);
+    background-color: transparent;
+    border-radius: 35px;
+}
+.Order-Online-button{
+    padding: 1.5rem 1.65rem;
+    background-color: var(--order-btn-clr);
+    border-radius: 35px;
+    border: 1px solid var(--order-btn-clr);
+}
+.order-arrow{
+    background-color: var(--text-color);
+    color: var(--order-btn-clr);
+    border-radius: 50%;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 3px;
+    margin: 2px;
+    font-family: inter;
+}
+.Order-Online-button a{
+    background-color: var(--order-btn-clr);
+    font-family: inter;
+}
+.get-a-franchise-button a{
+    font-family: inter;
+}
+/* nav ended */
+
+
+/* crousel started */
+.crousel-img{
+    width: 100%;
+    margin-top: 10px;
+}
+/* crousel ended */
+
+/* heading start */
+.main-heading{
+    font-family: aprecu;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    line-height: 50px;
+}
+.salt-n-pepper{
+    font-family: Futurak;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 62px;
+    font-style: normal;
+}
+.heading-para{
+    font-size: 16px;
+    font-family: aperecu;
+    font-weight: 400;
+    letter-spacing: 0.03rem;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--para-clr);
+    margin-bottom: 40px;
+
+}
+/* heading start */
+
+
+/* font family started */
+@font-face {
+    font-family: Futurak;
+    src: url(../assets/fonts/futura-pt/FUTURAK.TTF);
+}
+@font-face {
+    font-family: inter;
+    src: url(../assets/fonts/Inter/static/Inter_18pt-Medium.ttf);
+}
+@font-face {
+    font-family: aprecu;
+    src: url(../assets/fonts/apercu-pro/FontsFree-Net-ApercuLight.ttf);
+}
+/* font family ended */
+
+
+
+
+
+
+
+@media(max-width: 990px){
+    .nav-bar{
+        display: none;
+    }
+}
