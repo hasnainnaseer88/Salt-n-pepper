@@ -4,6 +4,7 @@
     --order-btn-clr:#ed1c24;
     --direction-btn-clr:#28a745;
     --para-clr:#b7b7b7;
+    --para1-clr:#ffffffb3;
 }
 
 *{
@@ -36,7 +37,6 @@ header{
     align-items: end;
     padding: 10px 0%; 
     padding-left: 25%;
-    gap: -10px;
     width: 80%;
     justify-content: space-around;
     
@@ -95,6 +95,7 @@ h2{
     font-style: normal;
     text-align: center;
     line-height: 50px;
+    /* padding: 70px 15px 130px; */
 }
 .salt-n-pepper{
     font-family: Futurak;
@@ -124,7 +125,7 @@ h2{
 }
 .coursel-cards img{
     background-color: white;
-    width: 245px;
+    width: 250px;
     height: 140px;
     padding: 30px 19px;
     display: flex;
@@ -132,7 +133,57 @@ h2{
     border-radius: 3px;
     
 }
+.coursel-cards button{
+    font-family: inter;
+    width: 174px;
+    height: 50px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    border: 1px solid #ffffff4d;
+    border-radius: 50px;
+    line-height: 50px;
+    margin-top: 24px;
+}
 /* cousel cards end
+
+
+/* brand first sec started */
+
+.section1-main-heading{
+    padding: 70px;
+    /* position: relative; */
+    font-family: butler;
+    font-weight: lighter;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: -0.25px;
+}
+.heading-para1{
+    font-size: 16px;
+    font-family: aperecu;
+    font-weight: 400;
+    letter-spacing: 0.03rem;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--para1-clr);
+    margin-bottom: 40px;
+    margin-top: 0%;
+}
+
+.div-franchises{
+    width: 50%;
+}
+/* brand first sec ended */
+
+
+
+
+
+
+
 
 /* font family started */
 @font-face {
@@ -141,11 +192,18 @@ h2{
 }
 @font-face {
     font-family: inter;
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
     src: url(../assets/fonts/Inter/static/Inter_18pt-Medium.ttf);
 }
 @font-face {
     font-family: aprecu;
-    src: url(../assets/fonts/apercu-pro/FontsFree-Net-ApercuLight.ttf);
+    src: url(../assets/fonts/apercu-pro/UcCm3FwrK3iLTcvnUwkT9nA2.woff2);
+}
+@font-face {
+    font-family: butler;
+    src: url(../assets/fonts/butler/Butler_Bold.otf);
 }
 /* font family ended */
 
