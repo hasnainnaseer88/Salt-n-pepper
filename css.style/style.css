@@ -36,7 +36,7 @@ header{
     font-family: inter ;
     align-items: end;
     padding: 10px 0%; 
-    padding-left: 25%;
+    padding-left: 160px;
     width: 80%;
     justify-content: space-around;
     
@@ -63,8 +63,8 @@ header{
     border-radius: 50%;
     font-size: larger;
     font-weight: bolder;
-    padding: 3px;
-    margin: 2px;
+    padding: 0px 3px;
+    margin: 0px 10px;
     font-family: inter;
 }
 .Order-Online-button a{
@@ -150,9 +150,10 @@ h2{
 
 /* brand first sec started */
 
+
 .section1-main-heading{
     padding: 70px;
-    /* position: relative; */
+    position: relative;
     font-family: butler;
     font-weight: lighter;
     font-size: 30px;
@@ -161,6 +162,9 @@ h2{
     line-height: 50px;
     letter-spacing: -0.25px;
 }
+
+
+
 .heading-para1{
     font-size: 16px;
     font-family: aperecu;
@@ -174,7 +178,75 @@ h2{
 }
 
 .div-franchises{
-    width: 50%;
+    width: 100%;
+    display: flex;
+
+}
+.div-img{
+    width: 700px;
+}
+.franchise-data{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    margin-left: 30px;
+}
+.franchise-data h3{
+    font-family: aprecu;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 38px;
+    margin-bottom: 20px;
+    margin-top: 4px;
+}
+
+.franchise-data small{
+    color: var(--order-btn-clr);
+    font-family: aperecu;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.48em;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+.faislabad-heading{
+    font-family: Futurak;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 29px;
+}
+.franchise-data p{
+    font-size: 16px;
+    font-style: normal;
+    font-family: aprecu;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 0%;
+    letter-spacing: 0.03em;
+    color: var(--para-clr);
+}
+.franchise-data button{
+    font-size: 14px;
+    border: 1px solid #ffffff4d;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+.direction-arrow{
+    background-color: var(--text-color);
+    color: var(--order-btn-clr);
+    border-radius: 50%;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 3px;
+    margin: 0px 10px;
+    font-family: inter;
+    padding: 0% 2px;
 }
 /* brand first sec ended */
 
