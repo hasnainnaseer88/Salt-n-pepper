@@ -21,8 +21,10 @@ html{
 header{
     display: flex;
     justify-content: space-around;
-    gap: 14%;
+    /* gap: 14%; */
     padding: 0% 6%;
+    width: 100%;
+    align-items: center;
 
 }
 .logo{
@@ -34,16 +36,16 @@ header{
     display: flex;
     font-size: 16px;
     font-family: inter ;
-    align-items: end;
+    align-items: center;
     padding: 10px 0%; 
-    padding-left: 160px;
-    width: 80%;
-    justify-content: space-around;
+    justify-content: flex-end;
+    margin-left: auto;
+    flex-grow: 1;
     
 }
 .nav-bar a{
     margin-bottom: 10px;
-    margin: 10px;
+    margin: 2%;
 }
 .get-a-franchise-button{
     padding: 15px 16.5px;
@@ -52,10 +54,12 @@ header{
     border-radius: 35px;
 }
 .Order-Online-button{
-    padding: 1.5rem 1.65rem;
+    padding: 1.5rem;
+    margin-left: 10px;
     background-color: var(--order-btn-clr);
     border-radius: 35px;
     border: 1px solid var(--order-btn-clr);
+    width: 201px;
 }
 .order-arrow{
     background-color: var(--text-color);
@@ -117,40 +121,88 @@ h2{
 
 }
 /* heading start */
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 .coursel-cards{
     display: flex;
     gap: 30px;
-    justify-content: center;
+    justify-content: space-between;
     width: 100% ;
+    
+}
+.restaurant-card{
+    width: 25%;
+}
+.express-card{
+    width: 25%;
+}
+.village-card{
+    width: 25%;
+    
+}
+.signature-card{
+    width: 25%;
+}
+
+
+
+.restaurant-card img{
+    width: 25%;
+    height: 46%;
+}
+.express-card img{
+    width: 25%;
+    height: 46%;
+
+} 
+.village-card img{
+    width: 25%;
+    height: 46%;
+}
+.signature-card img{
+    width: 25%;
+    height: 46%;
+    
 }
 .coursel-cards img{
     background-color: white;
-    width: 250px;
-    height: 140px;
-    padding: 30px 19px;
-    display: flex;
-    align-items: center;
+    /* padding: 30px 19px; */
+    /* display: flex; */
+    /* align-items: center; */
     border-radius: 3px;
+    width: 100%;
     
 }
 .coursel-cards button{
     font-family: inter;
-    width: 174px;
+    width: 100%;
     height: 50px;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     border: 1px solid #ffffff4d;
     border-radius: 50px;
-    line-height: 50px;
+    /* line-height: 50px; */
+    align-items: center;
     margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+.signature-card button{
+    /* margin-top: 0%; */
 }
 /* cousel cards end
 
 
 /* brand first sec started */
 
-
+.brand-first-section{
+    box-sizing: border-box;
+    width: 100%;
+}
 .section1-main-heading{
     padding: 70px;
     position: relative;
@@ -161,6 +213,11 @@ h2{
     text-align: center;
     line-height: 50px;
     letter-spacing: -0.25px;
+    width: 100%;
+}
+.section1-main-heading salt
+.section1-main-heading h2{
+    font-size: 50px;
 }
 
 
@@ -180,33 +237,45 @@ h2{
 .div-franchises{
     width: 100%;
     display: flex;
+    justify-content: space-around;
 
 }
-.div-img{
-    width: 700px;
+.div-franchise-img{
+    width: 30%;
+
 }
-.franchise-data{
+.div-img {
     width: 100%;
+}
+.div-img img{
+    width: 65rem;
+}
+
+.div-franchise-data{
+    width: 40%;
+
+}
+.div-data{
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
+    justify-content: flex-start;
     align-items: flex-start;
     margin-left: 30px;
 }
-.franchise-data h3{
+.div-data h3{
     font-family: aprecu;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 400;
     font-style: normal;
-    line-height: 38px;
-    margin-bottom: 20px;
+    line-height: 41px;
+    margin-bottom: 15px;
     margin-top: 4px;
 }
 
-.franchise-data small{
+.div-data small{
     color: var(--order-btn-clr);
     font-family: aperecu;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     font-style: normal;
     letter-spacing: 0.48em;
@@ -215,13 +284,13 @@ h2{
 }
 .faislabad-heading{
     font-family: Futurak;
-    font-size: 32px;
+    font-size: 35px;
     font-weight: 400;
     font-style: normal;
     line-height: 29px;
 }
-.franchise-data p{
-    font-size: 16px;
+.div-data p{
+    font-size: 18px;
     font-style: normal;
     font-family: aprecu;
     font-weight: 400;
@@ -230,7 +299,7 @@ h2{
     letter-spacing: 0.03em;
     color: var(--para-clr);
 }
-.franchise-data button{
+.div-data button{
     font-size: 14px;
     border: 1px solid #ffffff4d;
     padding: 10px;
@@ -285,8 +354,43 @@ h2{
 
 
 
-@media(max-width: 990px){
+@media screen and (min-width: 320px) and (max-width: 981px){
+    header{
+        justify-content: space-between;
+    }
     .nav-bar{
         display: none;
+        justify-content: ;    
     }
+    .div-order-online-button{
+        justify-content: flex-start;
+        display: flex;
+        flex-grow: 1;
+
+    }
+    .Order-Online-button{
+        visibility: visible;
+        font-size: 13px;
+        font-weight: 500;
+        height: 10px;
+        align-items: center;
+        line-height: 0%;
+        padding: 15px 0%;
+        width: 130px;   
+    }
+    .coursel-cards{
+        justify-content: center;
+
+    }
+    .signature-card{
+        display: none;
+    }
+    .logo{
+        width: 84px;
+    }
+
+    /* .header{
+        display: flex;
+        justify-content: flex-start;
+    } */
 }
