@@ -381,7 +381,7 @@ header{
         justify-content: flex-start;
     }
     .div-order-now-button{
-        width: 130px;
+        width: 200px;
         display: flex;
         justify-content: flex-end;
     }
@@ -408,7 +408,7 @@ header{
         flex-direction: row-reverse;
         padding: 7px 5px;
         align-items: center;
-        width: 100%;
+        width: 126px;
     }
     .Order-Online-button a{
         font-size: 12px;
