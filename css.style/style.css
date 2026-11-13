@@ -27,7 +27,7 @@ header{
     align-items: center;
 
 }
-.logo{
+#logo{
     width: 165px;
 }
 /* nav started */
@@ -44,14 +44,16 @@ header{
     
 }
 .nav-bar a{
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     margin: 2%;
 }
 .get-a-franchise-button{
-    padding: 15px 16.5px;
+    padding: 1.5rem;
     border: 1px solid var(--text-color);
     background-color: transparent;
     border-radius: 35px;
+    width: 140px;
+
 }
 .Order-Online-button{
     padding: 1.5rem;
@@ -59,7 +61,7 @@ header{
     background-color: var(--order-btn-clr);
     border-radius: 35px;
     border: 1px solid var(--order-btn-clr);
-    width: 201px;
+    /* width: 140px; */
 }
 .order-arrow{
     background-color: var(--text-color);
@@ -85,27 +87,28 @@ header{
 .crousel-img{
     width: 100%;
     margin-top: 10px;
+    height: ;
 }
 /* crousel ended */
 
 /* heading start */
 h2{
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 .main-heading{
     font-family: aprecu;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 35px;
     font-style: normal;
     text-align: center;
     line-height: 50px;
-    /* padding: 70px 15px 130px; */
+    padding: 70px 15px 130px;
 }
 .salt-n-pepper{
     font-family: Futurak;
-    font-size: 52px;
+    font-size: 1.5em;
     font-weight: 400;
-    line-height: 62px;
+    line-height: 1.3em;
     font-style: normal;
 }
 .heading-para{
@@ -129,22 +132,26 @@ h2{
 .coursel-cards{
     display: flex;
     gap: 30px;
-    justify-content: space-between;
+    justify-content:center;
     width: 100% ;
+    /* margin: auto; */
     
 }
 .restaurant-card{
-    width: 25%;
+    /* width: 25%; */
+    width: 250px;
 }
 .express-card{
-    width: 25%;
+    /* width: 25%; */
+    width: 250px;
 }
 .village-card{
-    width: 25%;
-    
+    /* width: 25%; */
+    width: 250px;
 }
 .signature-card{
-    width: 25%;
+    /* width: 25%; */
+    width: 250px;
 }
 
 
@@ -168,12 +175,14 @@ h2{
     
 }
 .coursel-cards img{
-    background-color: white;
-    /* padding: 30px 19px; */
+    background-color: #ffffff;
+    padding: 20px 20px;
     /* display: flex; */
     /* align-items: center; */
     border-radius: 3px;
-    width: 100%;
+    width: 250px;
+    height: 150px;
+    margin: 0px 20px;
     
 }
 .coursel-cards button{
@@ -208,16 +217,21 @@ h2{
     position: relative;
     font-family: butler;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 35px;
     font-style: normal;
     text-align: center;
     line-height: 50px;
     letter-spacing: -0.25px;
     width: 100%;
+    margin-bottom: 8px;
 }
-.section1-main-heading salt
+.section1-main-heading .salt-n-pepper{
+    font-size: 1.5em;
+    column-gap: 20px;
+    line-height: 1.3em;
+}
 .section1-main-heading h2{
-    font-size: 50px;
+    font-size: 1.5em;
 }
 
 
@@ -241,18 +255,22 @@ h2{
 
 }
 .div-franchise-img{
-    width: 30%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
 
+    margin: auto;
 }
 .div-img {
-    width: 100%;
+    width: 90%;
 }
 .div-img img{
-    width: 65rem;
+    width: 100%;
+    border: 1px solid;
 }
 
 .div-franchise-data{
-    width: 40%;
+    width: 50%;
 
 }
 .div-data{
@@ -260,7 +278,10 @@ h2{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: 30px;
+    /* margin-left: 10px; */
+    border: 1px solid;
+    height: 100%;
+    
 }
 .div-data h3{
     font-family: aprecu;
@@ -357,10 +378,11 @@ h2{
 @media screen and (min-width: 320px) and (max-width: 981px){
     header{
         justify-content: space-between;
+        display: flex;
     }
     .nav-bar{
         display: none;
-        justify-content: ;    
+            
     }
     .div-order-online-button{
         justify-content: flex-start;
@@ -378,19 +400,61 @@ h2{
         padding: 15px 0%;
         width: 130px;   
     }
+    .crousel-img{
+    width: 100%;
+    height: 419px;
+    margin-top: 10px;
+}
+
+
+    .main-heading{
+    font-family: aprecu;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    line-height: 20px;
+    padding: 7px;
+}
+.salt-n-pepper{
+    font-family: Futurak;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-style: normal;
+}
+.heading-para{
+    font-size: 16px;
+    font-family: aperecu;
+    font-weight: 400;
+    letter-spacing: 0.03rem;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--para-clr);
+    margin-bottom: 40px;
+    margin-top: 0%;
+
+}
+
+
+
     .coursel-cards{
+        display: flex;
         justify-content: center;
+        width: 10%;
+        margin: auto;
 
     }
+     .coursel-cards img{
+        width: 190px;
+        margin: auto;
+     }
     .signature-card{
         display: none;
     }
-    .logo{
+    #logo{
         width: 84px;
+        
+        justify-content: end;
     }
-
-    /* .header{
-        display: flex;
-        justify-content: flex-start;
-    } */
 }
