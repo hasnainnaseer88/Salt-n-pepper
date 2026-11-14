@@ -196,9 +196,7 @@ header{
     display: flex;
     justify-content: center;
 }
-.signature-card button{
-    /* margin-top: 0%; */
-}
+
 /* cousel cards end
 
 
@@ -335,6 +333,55 @@ header{
 }
 /* brand first sec ended */
 
+
+/* brand second sec starded */
+.express-franchises{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.div-express-heading{
+    width: 90%;
+    align-self: first baseline;
+}
+
+.div-express-heading h2{
+    padding: 70px;
+    position: relative;
+    font-family: butler;
+    font-weight: lighter;
+    font-size: 35px;
+    font-style: normal;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: -0.37px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.div-express-heading .salt-n-pepper{
+    font-size: 2em;
+    column-gap: 20px;
+    line-height: 1.9em;
+}
+.div-express-heading{
+
+}
+.express-franchises img{
+    width: 100%;
+}
+
+
+
+
+
+.sec-2-mh-h2-text{
+    font-size: 65px;
+    background-color: transparent;
+}
+/* brand second sec ended */
 
 
 
@@ -474,9 +521,7 @@ header{
         width: 250px;
         margin: auto;
      }
-    .signature-card{
-        display: none;
-    }
+    
     #logo{
         width: 84px;
         
