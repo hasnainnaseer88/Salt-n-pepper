@@ -250,6 +250,14 @@ header{
     justify-content: space-around;
 
 }
+.div-franchises-2{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
 .div-franchise-img{
     width: 40%;
     display: flex;
@@ -517,6 +525,11 @@ header{
     }
 
     .div-franchises{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .div-franchises-2{
         display: flex;
         flex-direction: column-reverse;
         gap: 50px;
