@@ -71,7 +71,7 @@ header{
     border-radius: 50%;
     font-size: larger;
     font-weight: bolder;
-    padding: 0px 3px;
+    padding: 1px 3px;
     margin: 0px 10px;
     font-family: inter;
 }
@@ -351,7 +351,8 @@ header{
 
 .div-express-heading{
     width: 90%;
-    text-align: end;
+    /* text-align: end; */
+    margin: auto;
 }
 
 .div-express-heading h2{
@@ -411,8 +412,7 @@ header{
     h3{
         font-size: 24px;
         font-family: aperecue;
-        font-weight: 500;
-        line-height: ;
+        font-weight: 500;        
         .sargodha-heading{
             font-family: futurak;
             font-size: 24px;
@@ -421,11 +421,30 @@ header{
     }
     p{
         font-family: aperecue;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
         color: var(--para-clr);
     }
-    
+    .get-directions-button{
+        padding: 1.5rem 0rem;
+        border: 1px solid #ffffff4d;
+        background-color: transparent;
+        border-radius: 35px;
+        width: 160px;
+        margin: 30px auto;
+        font-family: inter;
+        text-align: center;
+    }
+    .get-direction-arrow a{
+        background-color: var(--text-color);
+        color: var(--order-btn-clr);
+        border-radius: 50%;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 1px 3px;
+        margin: 0px 10px;
+        font-family: inter;
+    }
 
     
 }
@@ -448,7 +467,7 @@ header{
         font-size: 24px;
         font-family: aperecue;
         font-weight: 500;
-        line-height: ;
+        /* line-height: ; */
         .sargodha-heading{
             font-family: futurak;
             font-size: 24px;
@@ -460,6 +479,26 @@ header{
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
+    }
+    .get-directions-button{
+        padding: 1.5rem 0rem;
+        border: 1px solid #ffffff4d;
+        background-color: transparent;
+        border-radius: 35px;
+        width: 160px;
+        margin: 30px auto;
+        font-family: inter;
+        text-align: center;
+    }
+    .get-direction-arrow a{
+        background-color: var(--text-color);
+        color: var(--order-btn-clr);
+        border-radius: 50%;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 1px 3px;
+        margin: 0px 10px;
+        font-family: inter;
     }
 }
 .div-express-branch3{
@@ -481,7 +520,7 @@ header{
         font-size: 24px;
         font-family: aperecue;
         font-weight: 500;
-        line-height: ;
+        /* line-height: ; */
         .sargodha-heading{
             font-family: futurak;
             font-size: 24px;
@@ -493,6 +532,27 @@ header{
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
+    }
+
+    .get-directions-button{
+        padding: 1.5rem 0rem;
+        border: 1px solid #ffffff4d;
+        background-color: transparent;
+        border-radius: 35px;
+        width: 160px;
+        margin: 30px auto;
+        font-family: inter;
+        text-align: center;
+    }
+    .get-direction-arrow a{
+        background-color: var(--text-color);
+        color: var(--order-btn-clr);
+        border-radius: 50%;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 1px 3px;
+        margin: 0px 10px;
+        font-family: inter;
     }
 }
 .div-express-branch4{
@@ -514,7 +574,7 @@ header{
         font-size: 24px;
         font-family: aperecue;
         font-weight: 500;
-        line-height: ;
+        /* line-height: ; */
         .sargodha-heading{
             font-family: futurak;
             font-size: 24px;
@@ -526,6 +586,27 @@ header{
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
+    }
+
+    .get-directions-button{
+        padding: 1.5rem 0rem;
+        border: 1px solid #ffffff4d;
+        background-color: transparent;
+        border-radius: 35px;
+        width: 160px;
+        margin: 30px auto;
+        font-family: inter;
+        text-align: center;
+    }
+    .get-direction-arrow a{
+        background-color: var(--text-color);
+        color: var(--order-btn-clr);
+        border-radius: 50%;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 1px 3px;
+        margin: 0px 10px;
+        font-family: inter;
     }
 }
 .div-express-branch5{
@@ -547,7 +628,7 @@ header{
         font-size: 24px;
         font-family: aperecue;
         font-weight: 500;
-        line-height: ;
+        /* line-height: ; */
         .sargodha-heading{
             font-family: futurak;
             font-size: 24px;
@@ -559,6 +640,27 @@ header{
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
+    }
+
+    .get-directions-button{
+        padding: 1.5rem 0rem;
+        border: 1px solid #ffffff4d;
+        background-color: transparent;
+        border-radius: 35px;
+        width: 160px;
+        margin: 30px auto;
+        font-family: inter;
+        text-align: center;
+    }
+    .get-direction-arrow a{
+        background-color: var(--text-color);
+        color: var(--order-btn-clr);
+        border-radius: 50%;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 1px 3px;
+        margin: 0px 10px;
+        font-family: inter;
     }
 }
 .div-express-branch6{
@@ -580,7 +682,7 @@ header{
         font-size: 24px;
         font-family: aperecue;
         font-weight: 500;
-        line-height: ;
+        /* line-height: ; */
         .sargodha-heading{
             font-family: futurak;
             font-size: 24px;
@@ -592,6 +694,27 @@ header{
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
+    }
+
+    .get-directions-button{
+        padding: 1.5rem 0rem;
+        border: 1px solid #ffffff4d;
+        background-color: transparent;
+        border-radius: 35px;
+        width: 160px;
+        margin: 30px auto;
+        font-family: inter;
+        text-align: center;
+    }
+    .get-direction-arrow a{
+        background-color: var(--text-color);
+        color: var(--order-btn-clr);
+        border-radius: 50%;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 1px 3px;
+        margin: 0px 10px;
+        font-family: inter;
     }
 }
 .div-express-branch7{
@@ -613,7 +736,7 @@ header{
         font-size: 24px;
         font-family: aperecue;
         font-weight: 500;
-        line-height: ;
+        /* line-height: ; */
         .sargodha-heading{
             font-family: futurak;
             font-size: 24px;
@@ -625,6 +748,27 @@ header{
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
+    }
+
+    .get-directions-button{
+        padding: 1.5rem 0rem;
+        border: 1px solid #ffffff4d;
+        background-color: transparent;
+        border-radius: 35px;
+        width: 160px;
+        margin: 30px auto;
+        font-family: inter;
+        text-align: center;
+    }
+    .get-direction-arrow a{
+        background-color: var(--text-color);
+        color: var(--order-btn-clr);
+        border-radius: 50%;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 1px 3px;
+        margin: 0px 10px;
+        font-family: inter;
     }
 }
 .div-express-branch8{
@@ -646,7 +790,7 @@ header{
         font-size: 24px;
         font-family: aperecue;
         font-weight: 500;
-        line-height: ;
+        /* line-height: ; */
         .sargodha-heading{
             font-family: futurak;
             font-size: 24px;
@@ -658,6 +802,27 @@ header{
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
+    }
+
+    .get-directions-button{
+        padding: 1.5rem 0rem;
+        border: 1px solid #ffffff4d;
+        background-color: transparent;
+        border-radius: 35px;
+        width: 160px;
+        margin: 30px auto;
+        font-family: inter;
+        text-align: center;
+    }
+    .get-direction-arrow a{
+        background-color: var(--text-color);
+        color: var(--order-btn-clr);
+        border-radius: 50%;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 1px 3px;
+        margin: 0px 10px;
+        font-family: inter;
     }
 }
 .div-express-branch9{
@@ -679,7 +844,7 @@ header{
         font-size: 24px;
         font-family: aperecue;
         font-weight: 500;
-        line-height: ;
+        /* line-height: ; */
         .sargodha-heading{
             font-family: futurak;
             font-size: 24px;
@@ -691,6 +856,27 @@ header{
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
+    }
+
+    .get-directions-button{
+        padding: 1.5rem 0rem;
+        border: 1px solid #ffffff4d;
+        background-color: transparent;
+        border-radius: 35px;
+        width: 160px;
+        margin: 30px auto;
+        font-family: inter;
+        text-align: center;
+    }
+    .get-direction-arrow a{
+        background-color: var(--text-color);
+        color: var(--order-btn-clr);
+        border-radius: 50%;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 1px 3px;
+        margin: 0px 10px;
+        font-family: inter;
     }
 }
 .div-express-branch10{
@@ -712,7 +898,7 @@ header{
         font-size: 24px;
         font-family: aperecue;
         font-weight: 500;
-        line-height: ;
+        /* line-height: ; */
         .sargodha-heading{
             font-family: futurak;
             font-size: 24px;
@@ -724,6 +910,27 @@ header{
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
+    }
+
+    .get-directions-button{
+        padding: 1.5rem 0rem;
+        border: 1px solid #ffffff4d;
+        background-color: transparent;
+        border-radius: 35px;
+        width: 160px;
+        margin: 30px auto;
+        font-family: inter;
+        text-align: center;
+    }
+    .get-direction-arrow a{
+        background-color: var(--text-color);
+        color: var(--order-btn-clr);
+        border-radius: 50%;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 1px 3px;
+        margin: 0px 10px;
+        font-family: inter;
     }
 }
 .div-express-branch11{
@@ -745,7 +952,7 @@ header{
         font-size: 24px;
         font-family: aperecue;
         font-weight: 500;
-        line-height: ;
+        /* line-height: ; */
         .sargodha-heading{
             font-family: futurak;
             font-size: 24px;
@@ -758,6 +965,27 @@ header{
         font-weight: 400;
         color: var(--para-clr);
     }
+
+    .get-directions-button{
+        padding: 1.5rem 0rem;
+        border: 1px solid #ffffff4d;
+        background-color: transparent;
+        border-radius: 35px;
+        width: 160px;
+        margin: 30px auto;
+        font-family: inter;
+        text-align: center;
+    }
+    .get-direction-arrow a{
+        background-color: var(--text-color);
+        color: var(--order-btn-clr);
+        border-radius: 50%;
+        font-size: larger;
+        font-weight: bolder;
+        padding: 1px 3px;
+        margin: 0px 10px;
+        font-family: inter;
+    }
 }
 
 
@@ -769,6 +997,105 @@ header{
     background-color: transparent;
 }
 /* brand second sec ended */
+
+
+
+
+/* promotion section started */
+.promotion-section{
+    width: 100%;
+}
+
+.div-village-branch{
+    display: flex;
+
+}
+
+.div-village-img{
+    width: 50%;
+}
+
+.village-img-holder{
+    width: 96.29%;
+}
+.village-img-holder img{
+    width: 100%;
+}
+
+
+.div-village-data{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.village-data-holder{
+    width: 96.29%;
+    small{
+        color: var(--order-btn-clr);
+        font-family: aperecu;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 0.48em;
+        line-height: 20px;
+        margin-bottom: 8px;
+        margin-top: 24px;
+    }
+    h3{
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38px;
+        margin-bottom: 24px;
+        span{
+            font-family: futurak;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 29px;
+        }
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: aperecue;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: var(--para-clr);
+    }
+
+    .village-branch-btn{
+        background-color: var(--direction-btn-clr);
+
+        padding: 1.5rem 0rem;
+        border: 1px solid var(--direction-btn-clr);
+        border-radius: 35px;
+        width: 174px;
+        margin: 30px auto;
+        font-family: inter;
+        text-align: center;
+        a{
+            background-color: var(--direction-btn-clr);
+        }
+        span{
+            background-color: var(--text-color);
+            color: var(--direction-btn-clr);
+            border-radius: 30px;
+            width: 27px;
+            height: 27px;
+            margin-left: 10px;
+            padding: 9px 9px 6px;
+            a{
+                background-color: #ffffff;
+                border-radius: 50%;
+
+            }
+        }
+    }
+    
+}
+
+
+/* promotion section Ended */
 
 
 
@@ -974,5 +1301,40 @@ header{
     }
     .div-img img{
         width: 100%;
+    }
+
+
+    .div-express-branch{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 100%;
+    }
+    .div-express-branch1{
+        width: 100%;
+
+    }
+
+
+    .div-express-heading{
+        font-size: 16px;
+        padding-bottom: 5px;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px ;
+    }
+    
+    .div-express-heading .salt-n-pepper {
+        font-size: 25px;
+    }
+    .sec-2-mh-h2-text{
+        font-size: 25px;
+    }
+    .div-express-heading p{
+        font-size: 17px;
+    }
+    .express-franchises img{
+        width: 100%;
+        height: 100%;
     }
 }
