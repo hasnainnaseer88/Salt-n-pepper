@@ -378,12 +378,19 @@ header{
     width: 33%;
     margin: 0% auto;
     text-align: center;
+    
 }
+
+#div-express-branch10, #div-express-branch11{
+    margin: 0%;
+}
+
 .express-franchises img{
     width: 100%;
     height: 250px;
     /* height: 80%; */
 }
+
 
 
 .div-express-branch1{
@@ -752,6 +759,9 @@ header{
         color: var(--para-clr);
     }
 }
+
+
+
 
 
 .sec-2-mh-h2-text{
