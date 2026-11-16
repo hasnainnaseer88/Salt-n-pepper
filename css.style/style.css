@@ -1145,10 +1145,58 @@ header{
         }
     }
     
-}
+
 
 
 /* promotion section Ended */
+
+
+/* express coming soon franchises started */
+.express-opening-soon-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .div-express-heading{
+        width: 95%;
+        display: flex;
+        .salt-n-pepper{
+            font-size: 70px;
+        }
+        .sec-3-mh-h2-text{
+            width: 100%;
+            font-size: 55px;
+            background-color: transparent;
+            small{
+                font-family: inter;
+                font-size: 30px;
+                background-color: transparent;
+            }
+        }
+    }
+    .opening-soon-branches{
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        margin: auto;
+        gap: 20px;
+        .murree-express-way{
+            width: 33%;
+            img{
+                width: 100%;
+                height: 250px;
+            }
+        }
+        .kharian-epress-way{
+            width: 33%;
+            img{
+                width: 100%;
+                height: 250px;
+            }
+        }
+    }
+}
+/* express coming soon franchises ended */
 
 
 
@@ -1422,6 +1470,47 @@ header{
         margin-top: 30px;
     }
     /* village branch media ended */
+
+
+
+    /* opening soon branches media started */
+    .sec-3-mh-h2-text{
+        font-size: 10px;
+    }
+
+    .express-opening-soon-section{
+        width: 100%;
+        .div-express-heading{
+            width: 95%;
+            h2{
+                padding: 0%;
+                width: 100%;
+                .salt-n-pepper{
+                    font-size: 30px;
+                }
+                .sec-3-mh-h2-text{
+                    width: 100%;
+                    font-size: 25px;
+                    small{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+        .opening-soon-branches{
+            margin-top: 20px;
+            flex-direction: column;
+            width: 100%;
+            .murree-express-way{
+                width: 100%
+            }
+            .kharian-epress-way{
+                width: 100%;
+            }
+        }
+    }
+    /* opening soon branches media ended */
 }
 
 
