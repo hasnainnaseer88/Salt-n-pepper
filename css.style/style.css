@@ -1197,6 +1197,54 @@ header{
     }
 }
 /* express coming soon franchises ended */
+.main-footer-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .footer-section-data{
+        width: 90%;
+        display: flex;
+        .footer-data-holder1{
+            display: flex;
+            flex-direction: column;
+            width: 32%;
+            .footer-logo-box{
+                width: 140px;
+                img{
+                width: 100%;
+            }
+            }
+            p{
+                font-family: aperecue;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 21px;
+                letter-spacing: 0.03em;
+                color: var(--para-clr);
+                font-style: normal;
+                margin: 0% !important;
+            }
+            ul{
+                display: flex;
+                gap: 20px;
+                list-style: none;
+                li{
+                    text-decoration: none;
+                    a{
+                        font-family: aperecue;
+                        line-height: 20px;
+                        font-weight: 400;
+                        font-size: 15px;
+                        color: var(--para-clr);
+                    }
+                }
+            }
+        }
+    }
+}
+/* main footer secction started */
+
+/* main footer secction ended */
 
 
 
