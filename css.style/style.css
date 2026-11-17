@@ -113,7 +113,7 @@ header{
 }
 .heading-para{
     font-size: 16px;
-    font-family: aperecu;
+    font-family: aprecu;
     font-weight: 400;
     letter-spacing: 0.03rem;
     font-weight: 400;
@@ -236,7 +236,7 @@ header{
 
 .heading-para1{
     font-size: 16px;
-    font-family: aperecu;
+    font-family: aprecu;
     font-weight: 400;
     letter-spacing: 0.03rem;
     font-weight: 400;
@@ -292,7 +292,7 @@ header{
 
 .div-data small{
     color: var(--order-btn-clr);
-    font-family: aperecu;
+    font-family: aprecu;
     font-size: 1.8rem;
     font-weight: 500;
     font-style: normal;
@@ -405,7 +405,7 @@ header{
     flex-direction: column;
     small{
         color: var(--order-btn-clr);
-        font-family: aperecu;
+        font-family: aprecu;
         font-size: 12px;
         font-weight: 500;
         font-style: normal;
@@ -416,7 +416,7 @@ header{
     }
     h3{
         font-size: 24px;
-        font-family: aperecue;
+        font-family: aprecu;
         font-weight: 500;        
         .sargodha-heading{
             font-family: futurak;
@@ -425,7 +425,7 @@ header{
         }
     }
     p{
-        font-family: aperecue;
+        font-family: aprecu;
         font-size: 16px;
         font-weight: 400;
         color: var(--para-clr);
@@ -460,7 +460,7 @@ header{
     flex-direction: column;
     small{
         color: var(--order-btn-clr);
-        font-family: aperecu;
+        font-family: aprecu;
         font-size: 12px;
         font-weight: 500;
         font-style: normal;
@@ -471,7 +471,7 @@ header{
     }
     h3{
         font-size: 24px;
-        font-family: aperecue;
+        font-family: aprecu;
         font-weight: 500;
         /* line-height: ; */
         .sargodha-heading{
@@ -481,7 +481,7 @@ header{
         }
     }
     p{
-        font-family: aperecue;
+        font-family: aprecu;
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
@@ -514,7 +514,7 @@ header{
     flex-direction: column;
     small{
         color: var(--order-btn-clr);
-        font-family: aperecu;
+        font-family: aprecu;
         font-size: 12px;
         font-weight: 500;
         font-style: normal;
@@ -525,7 +525,7 @@ header{
     }
     h3{
         font-size: 24px;
-        font-family: aperecue;
+        font-family: aprecu;
         font-weight: 500;
         /* line-height: ; */
         .sargodha-heading{
@@ -535,7 +535,7 @@ header{
         }
     }
     p{
-        font-family: aperecue;
+        font-family: aprecu;
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
@@ -569,7 +569,7 @@ header{
     flex-direction: column;
     small{
         color: var(--order-btn-clr);
-        font-family: aperecu;
+        font-family: aprecu;
         font-size: 12px;
         font-weight: 500;
         font-style: normal;
@@ -580,7 +580,7 @@ header{
     }
     h3{
         font-size: 24px;
-        font-family: aperecue;
+        font-family: aprecu;
         font-weight: 500;
         /* line-height: ; */
         .sargodha-heading{
@@ -590,7 +590,7 @@ header{
         }
     }
     p{
-        font-family: aperecue;
+        font-family: aprecu;
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
@@ -624,7 +624,7 @@ header{
     flex-direction: column;
     small{
         color: var(--order-btn-clr);
-        font-family: aperecu;
+        font-family: aprecu;
         font-size: 12px;
         font-weight: 500;
         font-style: normal;
@@ -635,7 +635,7 @@ header{
     }
     h3{
         font-size: 24px;
-        font-family: aperecue;
+        font-family: aprecu;
         font-weight: 500;
         /* line-height: ; */
         .sargodha-heading{
@@ -645,7 +645,7 @@ header{
         }
     }
     p{
-        font-family: aperecue;
+        font-family: aprecu;
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
@@ -679,7 +679,7 @@ header{
     flex-direction: column;
     small{
         color: var(--order-btn-clr);
-        font-family: aperecu;
+        font-family: aprecu;
         font-size: 12px;
         font-weight: 500;
         font-style: normal;
@@ -690,7 +690,7 @@ header{
     }
     h3{
         font-size: 24px;
-        font-family: aperecue;
+        font-family: aprecu;
         font-weight: 500;
         /* line-height: ; */
         .sargodha-heading{
@@ -700,7 +700,7 @@ header{
         }
     }
     p{
-        font-family: aperecue;
+        font-family: aprecu;
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
@@ -734,7 +734,7 @@ header{
     flex-direction: column;
     small{
         color: var(--order-btn-clr);
-        font-family: aperecu;
+        font-family: aprecu;
         font-size: 12px;
         font-weight: 500;
         font-style: normal;
@@ -745,7 +745,7 @@ header{
     }
     h3{
         font-size: 24px;
-        font-family: aperecue;
+        font-family: aprecu;
         font-weight: 500;
         /* line-height: ; */
         .sargodha-heading{
@@ -755,7 +755,7 @@ header{
         }
     }
     p{
-        font-family: aperecue;
+        font-family: aprecu;
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
@@ -789,7 +789,7 @@ header{
     flex-direction: column;
     small{
         color: var(--order-btn-clr);
-        font-family: aperecu;
+        font-family: aprecu;
         font-size: 12px;
         font-weight: 500;
         font-style: normal;
@@ -800,7 +800,7 @@ header{
     }
     h3{
         font-size: 24px;
-        font-family: aperecue;
+        font-family: aprecu;
         font-weight: 500;
         /* line-height: ; */
         .sargodha-heading{
@@ -810,7 +810,7 @@ header{
         }
     }
     p{
-        font-family: aperecue;
+        font-family: aprecu;
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
@@ -844,7 +844,7 @@ header{
     flex-direction: column;
     small{
         color: var(--order-btn-clr);
-        font-family: aperecu;
+        font-family: aprecu;
         font-size: 12px;
         font-weight: 500;
         font-style: normal;
@@ -855,7 +855,7 @@ header{
     }
     h3{
         font-size: 24px;
-        font-family: aperecue;
+        font-family: aprecu;
         font-weight: 500;
         /* line-height: ; */
         .sargodha-heading{
@@ -865,7 +865,7 @@ header{
         }
     }
     p{
-        font-family: aperecue;
+        font-family: aprecu;
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
@@ -899,7 +899,7 @@ header{
     flex-direction: column;
     small{
         color: var(--order-btn-clr);
-        font-family: aperecu;
+        font-family: aprecu;
         font-size: 12px;
         font-weight: 500;
         font-style: normal;
@@ -910,7 +910,7 @@ header{
     }
     h3{
         font-size: 24px;
-        font-family: aperecue;
+        font-family: aprecu;
         font-weight: 500;
         /* line-height: ; */
         .sargodha-heading{
@@ -920,7 +920,7 @@ header{
         }
     }
     p{
-        font-family: aperecue;
+        font-family: aprecu;
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
@@ -954,7 +954,7 @@ header{
     flex-direction: column;
     small{
         color: var(--order-btn-clr);
-        font-family: aperecu;
+        font-family: aprecu;
         font-size: 12px;
         font-weight: 500;
         font-style: normal;
@@ -965,7 +965,7 @@ header{
     }
     h3{
         font-size: 24px;
-        font-family: aperecue;
+        font-family: aprecu;
         font-weight: 500;
         /* line-height: ; */
         .sargodha-heading{
@@ -975,7 +975,7 @@ header{
         }
     }
     p{
-        font-family: aperecue;
+        font-family: aprecu;
         font-size: 14px;
         font-weight: 400;
         color: var(--para-clr);
@@ -1049,7 +1049,7 @@ header{
     width: 96.29%;
     small{
         color: var(--order-btn-clr);
-        font-family: aperecu;
+        font-family: aprecu;
         font-size: 16px;
         font-weight: 500;
         font-style: normal;
@@ -1073,7 +1073,7 @@ header{
     p{
         font-size: 16px;
         font-weight: 400;
-        font-family: aperecue;
+        font-family: aprecu;
         line-height: 19px;
         letter-spacing: 0.03em;
         color: var(--para-clr);
@@ -1198,24 +1198,30 @@ header{
 }
 /* express coming soon franchises ended */
 .main-footer-section{
+    padding: 70px 15px 0px 15px;
     width: 100%;
     display: flex;
     justify-content: center;
     .footer-section-data{
-        width: 90%;
+        width: 78%;
         display: flex;
+        justify-content: space-between;
         .footer-data-holder1{
             display: flex;
             flex-direction: column;
-            width: 32%;
+            width: 33%;
             .footer-logo-box{
+                box-sizing: border-box;
+                padding-bottom: 24px;
                 width: 140px;
+                margin: 0%;
                 img{
                 width: 100%;
             }
             }
             p{
-                font-family: aperecue;
+                text-align: left;
+                font-family: aprecu;
                 font-weight: 400;
                 font-size: 17px;
                 line-height: 21px;
@@ -1228,10 +1234,13 @@ header{
                 display: flex;
                 gap: 20px;
                 list-style: none;
+                margin-top: 30px; 
+                padding: 0%;
+                
                 li{
                     text-decoration: none;
                     a{
-                        font-family: aperecue;
+                        font-family: aprecu;
                         line-height: 20px;
                         font-weight: 400;
                         font-size: 15px;
@@ -1240,8 +1249,121 @@ header{
                 }
             }
         }
+
+
+
+
+        .footer-data-holder2{
+            box-sizing: border-box;
+            font-family: inter;
+            padding: 0%;
+            letter-spacing: -0.25px;
+            .div-footer-about-box{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                .div-footer-about-box-heading{
+                    position: relative;
+                    padding-bottom: 24px;
+                    h3{
+                        font-family: butler;
+                        font-size: 16px;
+                        font-weight: 700;
+                        font-style: normal;
+                        margin-bottom: 0% !important;
+                        line-height: 19px;
+                    }
+                }
+
+                .div-footer-about-box-data-holder{
+                    box-sizing: border-box;
+                    padding: 0%;
+                    font-family: inter;
+                    letter-spacing: -0.25px;
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        padding: 0% !important;
+                        margin: 0% !important;
+                        li{
+                            list-style: none;
+                            display: flex;
+                            align-items: center;
+                            padding-bottom: 16px;
+                            gap: 0px 5px;
+                            a{
+                                font-family: aprecu;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 15px;
+                                line-height: 20px;
+                                letter-spacing: 0.03em;
+                                color: var(--para-clr);
+                                font-family: aperecue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .div-footer-contact-us-box{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .div-footer-contact-us-holder{
+                position: relative;
+                padding-bottom: 24px;
+                h3{
+                    font-size: 16px;
+                    font-style: normal;
+                    font-family: butler;
+                    margin-bottom: 0%;
+                    font-weight: 700;
+                    line-height: 19px;
+                }
+            }
+
+
+            .div-footer-contact-us-data-holder{
+                display: block;
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0% !important;
+                    margin: 0% !important;
+                    width: 100%;
+                    list-style: none;
+                    .head-office{
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 700;
+                        margin-bottom: 0% !important;
+                    }
+
+                    .head-office-add{
+                        display: flex;                        margin-bottom: 16px;
+                        a{
+                            text-decoration: none;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 20px;
+                            letter-spacing: 0.03em;
+                            color: var(--para-clr);
+                        }
+                    }
+                }
+            }
+        }
     }
 }
+
+
+
+
 /* main footer secction started */
 
 /* main footer secction ended */
@@ -1358,7 +1480,7 @@ header{
     }
     .heading-para{
         font-size: 16px;
-        font-family: aperecu;
+        font-family: aprecu;
         font-weight: 400;
         letter-spacing: 0.03rem;
         font-weight: 400;
