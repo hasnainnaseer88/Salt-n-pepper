@@ -1458,7 +1458,20 @@ header{
 }
 
 
-
+.fit-icons{
+    .f-logo{
+        border-radius: 50%;
+        width: 35px;
+    }
+    .i-logo{
+        border-radius: 50%;
+        width: 35px;
+    }
+    .t-logo{
+        width: 35px;
+        border-radius: 50%;
+    }
+}
 
 /* main footer secction started */
 
