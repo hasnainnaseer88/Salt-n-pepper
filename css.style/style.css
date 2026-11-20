@@ -1458,20 +1458,50 @@ header{
 }
 
 
-.fit-icons{
-    .f-logo{
-        border-radius: 50%;
-        width: 35px;
+.footer-data-holder4{
+    .follow-us-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .data-holder-head{
+            position: relative;
+            padding-bottom: 24px;
+            h3{
+                margin-bottom: 0% !important;
+                font-family: butler;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 19px;
+            }
+        }
     }
-    .i-logo{
-        border-radius: 50%;
-        width: 35px;
-    }
-    .t-logo{
-        width: 35px;
-        border-radius: 50%;
+
+    .fit-icons{
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+        gap: 10px;
+        .f-logo{
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+        .i-logo{
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+        .t-logo{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
     }
 }
+
+
+
 
 /* main footer secction started */
 
