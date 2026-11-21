@@ -1924,6 +1924,21 @@ header{
         }
 
     }
+
+
+
+
+    .main-footer{
+        .footer-data-holder{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            span{
+                margin: auto;
+                
+            }
+        }
+    }
 }
 
 
