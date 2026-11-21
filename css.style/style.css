@@ -1206,6 +1206,7 @@ header{
         width: 78%;
         display: flex;
         justify-content: space-between;
+        gap: 20px;
         .footer-data-holder1{
             display: flex;
             flex-direction: column;
@@ -1306,6 +1307,11 @@ header{
                     }
                 }
             }
+        }
+
+
+        .footer-data-holder3{
+            width: 20%;
         }
 
 
@@ -1459,6 +1465,7 @@ header{
 
 
 .footer-data-holder4{
+    width: 20%;
     .follow-us-container{
         display: flex;
         flex-direction: column;
@@ -1466,6 +1473,7 @@ header{
         .data-holder-head{
             position: relative;
             padding-bottom: 24px;
+            width: 100%;
             h3{
                 margin-bottom: 0% !important;
                 font-family: butler;
@@ -1478,6 +1486,7 @@ header{
     }
 
     .fit-icons{
+        width: 100%;
         display: flex;
         align-items: center;
         margin-bottom: 24px;
@@ -1496,6 +1505,21 @@ header{
             width: 40px;
             height: 40px;
             border-radius: 50%;
+        }
+    }
+
+
+    .social-media-all-holder{
+        width: 100%;
+        ul{
+            list-style: none;
+            display: flex;            
+            flex-direction: column;
+            gap: 20px;
+            padding: 0% !important;            
+            img{
+            width: 100%;
+        }
         }
     }
 }
@@ -1820,6 +1844,58 @@ header{
         }
     }
     /* opening soon branches media ended */
+
+
+
+    .main-footer-section{
+        width: 100%;
+        .footer-section-data{
+            display: flex;
+            flex-direction: column;
+            .footer-data-holder1{
+                width: 100%;
+            }
+
+            .footer-data-holder2{
+                .div-footer-about-box-data-holder{
+                    display: none;
+                }
+            }
+
+            .footer-data-holder3{
+                .div-footer-contact-us-data-holder{
+                    display: none;
+                }
+            }
+
+            .footer-data-holder4{
+                .fit-icons{
+                    display: flex;
+                    justify-content: center;
+                }
+                width: 100%;
+                .follow-us-container{
+                    display: none;
+                }
+
+                .get-the-app-sec{
+
+                    ul{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        img{
+                            margin: 0% auto;
+                            width: 150px;
+                        }
+                    }
+                }
+
+
+            }
+        }
+
+    }
 }
 
 
